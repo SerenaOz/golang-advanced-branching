@@ -87,7 +87,7 @@ func main() {
 
 	// Print ratings for the different vehicles
 	for _, veh := range inventory {
-		switch v:= veh.(type); v {
+		switch v:= veh.(type) {
 			case car:
 				v.carDetails()
 			case bike:
